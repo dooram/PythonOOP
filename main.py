@@ -1,3 +1,6 @@
-age = int(input("Your age: "))
-if age >= 18: print("You're adult")
-else: print("You're too young")
+class Student:
+    def __init__(self):
+        self.height = 180
+        print("I'm alive")
+
+Nazar = Student()
